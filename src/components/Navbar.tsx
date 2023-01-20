@@ -3,9 +3,9 @@ import ListGroup from "react-bootstrap/ListGroup";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const Inicio = lazy(() => import('./Inicio'));
-const Usuarios = lazy(() => import('./Inicio'));
-const Peliculas = lazy(() => import('./Inicio'));
-const Libros = lazy(() => import('./Inicio'));
+const Usuarios = lazy(() => import('./Usuarios'));
+const Peliculas = lazy(() => import('./Peliculas'));
+const Libros = lazy(() => import('./Libros'));
 
 
 const Navbar = () => {
